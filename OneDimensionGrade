@@ -1,0 +1,22 @@
+package selfProgramming;
+
+public class OneDimensionGrade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+				int [] grade = new int[5];
+				
+				grade[0] = 'B';
+				grade[1] = 'C';
+				grade[2] = 'B';
+				grade[3] = 'A';
+				grade[4] = 'C';
+				
+				for(int i=0; i<grade.length; i++)
+					System.out.println("The grade for" +" index "+i+" = "+ grade[i]);
+					
+
+			}
+
+}
